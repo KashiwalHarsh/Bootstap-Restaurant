@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+
+.nav-logo-row {
+    margin: 0.5rem;
+}
+
+.navbar-left-container img {
+    width: 200px;
+}
+
+.alert-personal-style {
+    color: grey;
+    padding-left: 2rem;
+}
+
+.custom-h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ff914d;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.all-p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(150, 150, 150);
+    /* margin-bottom: 10px !important; */
+}
+
+.button-seondary {
+    color: white;
+}
+
+.button-seondary:hover {
+    color: white;
+}
+
+.center-heading-box-row {
+    margin: .25rem .25rem;
+}
+
+.custom-carousel {
+    margin: 0;
+}
+
+
+.custom-carousel .carousel-item {
+    background-color: black;
+}
+
+.custom-carousel .carousel-item img {
+    opacity: 0.8;
+}
+
+
+
+.center-heading-box {
+    line-height: 1;
+    margin: auto;
+}
+
+.center-heading-box .custom-h1 {
+    margin-bottom: 0 !important;
+}
+
+.container-body {
+    padding: 2rem 4rem;
+}
+
+.container-body .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------carousel card left right buttons---------- */
+
+.slide-card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0.5rem;
+    max-width: 100%;
+    /* width: 20rem; */
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.carousel-inner {
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+}
+
+.body-our-product .carousel-control-prev,
+.body-our-product .carousel-control-next {
+    background-color: #e2e2e2;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.card-heading {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    overflow-y: hidden;
+    text-transform: uppercase;
+}
+
+.card-price {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(164, 90, 90);
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.card-btn {
+    margin: 0px 2px 0px 2px;
+    padding: 2px;
+}
+
+.card-control {
+    margin-top: 20px;
+}
+
+/* -----------------experience--------------- */
+
+.back-image {
+    background: url("img/ladscape1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 3rem 0px 3.5rem 0px;
+}
+
+.flex-parent-experience-box {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 98%;
+    flex-direction: row-reverse;
+
+    /* left here last time */
+}
+
+.exp-para {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
+}
+
+.exp-heading {
+    color: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.exp-detail {
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 0 0 0.5rem 0;
+}
+
+.box-right {
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 50%;
+    padding: 2.3rem;
+}
+
+
+
+
+
+/* ------------------outlets------------- */
+
+
+.outlet-card-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
+}
+
+
+
+
+
+
+
+/* -----------------------footer--------------*/
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffd966;
+    padding: 1rem 0 1rem 0;
+}
+
+.nl-box-left {
+    padding-right: 1rem;
+}
+
+.nl-foot-head {
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.nl-text-muted {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 4rem 0 0 0;
+}
+
+.footer .list-unstyled {
+    margin-right: 8.33%;
+}
+
+.footer .foot-head {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+
+/* -----------------------divider and spaces--------------*/
+
+.divider {
+    margin: auto;
+    height: 2.5px;
+    width: 200px;
+    background-color: yellow;
+}
+
+
+/* ----------------------------------------RESPONSIVE -- MOBILE------------------------------------------ */
+
+@media only screen and (max-width: 640px) {
+    .nav-logo-row {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .navbar-right-container {
+        padding: 0 0.4rem 0 0.4rem;
+    }
+
+    .custom-carousel {
+        margin: 0;
+    }
+
+    .carousel-inner {
+        padding: 1rem 0;
+    }
+
+
+    .custom-h1 {
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+
+    .all-p {
+        font-size: 1rem;
+        color: rgb(97, 97, 97);
+    }
+
+    .outlet-card-row {
+        margin: 1rem 2.5rem;
+    }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .nl-box-left {
+        padding-right: 1rem;
+    }
+
+    .nl-foot-head {
+        margin-bottom: 0;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .nl-text-muted {
+        font-size: 0.6rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .footer-logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .container-body {
+        padding: 0 1rem;
+    }
+
+    .container-body .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .flex-parent-experience-box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-right {
+        width: 100%;
+    }
+
+    .exp-heading {
+        font-size: 2rem;
+    }
+
+    .exp-para {
+        font-size: 0.8rem;
+    }
+
+    .exp-detail {
+        font-size: 0.8rem;
+    }
+
+    .footer-logo img {
+        width: 150px;
+    }
+
+    .footer-copyright {
+        font-size: 0.7rem;
+    }
+
+
+    /* -------------trick from internet to increase height of carousel for mobile------ */
+
+    .custom-carousel .carousel-item {
+        height: 300px;
+    }
+
+    .custom-carousel .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+        object-fit: cover;
+    }
+
+}
