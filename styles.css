@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
 }
 
 
@@ -271,6 +270,16 @@ footer {
     height: 2.5px;
     width: 200px;
     background-color: yellow;
+}
+.dotted-divider {
+    border: none;
+    border-top: 1px dashed maroon;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 8px;
 }
 
 
